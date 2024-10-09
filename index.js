@@ -44,11 +44,11 @@ const sumOfThreeOrFive = () => {
 };
 //console.log(sumOfThreeOrFive());
 
-const isAllLowerCase = () => {
-  if (string.toLowercase) {
+const isAllLowerCase = (str) => {
+  if (str.toLowerCase() === str) {
     return true;
   } else {
     return false;
   }
 };
-console.log(isAllLowerCase("woopsie"));
+console.log(isAllLowerCase("wow"));
